@@ -1,0 +1,6 @@
+<public:component>
+<script language="JavaScript">
+element.runtimeStyle.filter='progid:DXImageTransform.Microsoft.AlphaImageLoader(src="'+element.style.backgroundImage.substr(4, element.style.backgroundImage.length-5)+'", sizingMethod="crop")'
+element.style.backgroundImage="url(images/no.gif)";
+</script>
+</public:component>

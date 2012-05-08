@@ -1,0 +1,603 @@
+/*
+Theme Name: Sakura
+Theme URI: http://www.area381.com/
+Description: Widget ready WordPress theme with two columns and sakura motive (japanese cherry blossom). Created by <a href="http://www.area381.com">area381</a>.
+Version: 1.5
+Author: area381
+Last Update: 13/sept/2008
+Tags: fixed width, widget ready, 2 columns, right sidebar, custom header, seo friendly, gravatars, wpmu, sakura, spring, brown, rounded corners, woman, feminine, asia, japan
+Licence: The CSS, XHTML and design is released under GPL: http://creativecommons.org/licenses/GPL/2.0/
+*/ 
+
+* {
+	padding:0;
+	margin:0;
+}
+body {
+	color: #3E4449;
+	font: 0.9em "Trebuchet MS", "Lucida Sans Std", "Lucida Sans Unicode", sans-serif;
+	background: #ECEAE2 url(images/background.jpg) repeat-x 0px 0px;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+} 
+a:link,
+a:visited {
+	color:#C6524E;
+	text-decoration: none;
+}
+a:hover {
+	color:#C6524E;
+	text-decoration: underline;
+}
+img, a img {
+	border:none;
+}
+code {
+	font-family: "Courier New", Courier, mono;
+	color: #333333;
+}
+.clear {
+	clear: both;
+}
+
+
+/*		
+//////////////////////////////////////////////////////
+		LAYOUT
+//////////////////////////////////////////////////////
+*/ 
+
+#wrapp {
+	width: 970px;
+	margin: 0px auto;
+	background: url(images/header_bg.jpg) no-repeat right top;
+}
+
+/*		
+//////////////////////////////////////////////////////
+		HEADER
+//////////////////////////////////////////////////////
+*/ 
+
+#header {
+	width: 970px;
+	height: 506px;
+}
+#HederTitle {
+	width: 500px;
+	height: 207px;	
+}
+#HederTitle h1 {
+	color: #3E4449;
+	font-weight: normal;
+	font-variant: normal;
+	width: 450px;
+	padding: 60px 0px 0px 15px;
+}
+#HederTitle h1 a:link,
+#HederTitle h1 a:visited {
+	text-decoration: none;
+	color: #3E4449;
+}
+#HederTitle h1 a:hover {
+	text-decoration: none;
+	color:#583408;
+}
+#HederTitle span {
+	color: #6D5E5E;
+	display: block;
+	width: 650px;
+	font-size: 1.1em;
+	margin: 5px 0px;
+	padding: 0px 0px 0px 15px;
+}
+#BottomHeader {
+	height: 280px;
+	width: 700px;
+}
+#BottomHeaderWrapp {
+	width: 680px;
+	height: 280px;
+	overflow:auto;
+	margin: 15px auto 5px;
+}
+#BottomHeaderWrapp p {
+	color: #968D89;
+	font-size: 1.0em;
+	padding:5px;
+}
+#BottomHeaderWrapp img,
+#BottomHeaderWrapp a img {
+	padding: 5px 9px;
+}
+#BottomHeaderWrapp a:link,
+#BottomHeaderWrapp a:visited,
+#BottomHeaderWrapp p a:link,
+#BottomHeaderWrapp p a:visited {
+	color:#C6524E;
+	text-decoration: none;
+}
+#BottomHeaderWrapp a:hover,
+#BottomHeaderWrapp p a:hover {
+	color:#C6524E;
+	text-decoration: underline;
+}
+#BottomHeaderWrapp span {
+	display:block;
+	float:right;
+	margin: 0px 25px 0px 0px;
+}
+
+/*		
+//////////////////////////////////////////////////////
+		MAIN
+//////////////////////////////////////////////////////
+*/ 
+
+#main {
+	width: 600px;
+	float: left;
+	margin: 35px 0px 0px 15px;
+}
+#main .navigation {
+	width: 550px;	
+}
+#main .navigation .alignleft {
+	float: left;
+}
+#main .navigation .alignleft a:link,
+#main .navigation .alignleft a:visited {
+	color:#BD413D;
+	text-decoration: none;
+}
+#main .navigation .alignleft a:hover {
+	color:#BD413D;
+	text-decoration: underline;	
+}
+#main .navigation .alignright {
+	float: right;
+}
+#main .navigation .alignright a:link,
+#main .navigation .alignright a:visited {
+	color:#BD413D;
+	text-decoration: none;
+}
+#main .navigation .alignright a:hover {
+	color:#BD413D;
+	text-decoration: underline;
+}
+#main .entryBox {
+	width: 547px;
+	background: #E3E1D5 url(images/entry_bg_top.jpg) no-repeat -1px 0px;
+	margin: 0px 0px 55px;
+}
+#main .entryBox .title h2 {
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #3E4449;
+	padding: 15px 15px 5px;
+}
+#main .entryBox .title h2 a:link,
+#main .entryBox .title h2 a:visited {
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #3E4449;
+}
+#main .entryBox .title h2 a:hover {
+	color: #000000;
+}
+#main .entryBox span.date {
+	font-size: 0.9em;
+	color: #928771;
+	display: block;
+	float:left;
+	margin: 0px 3px 0px 18px;
+}
+#main .entryBox span.edit {
+	font-size: 0.9em;
+	color: #928771;
+	display: block;
+	float:left;
+	margin: 0px 3px 0px 0px;
+}
+#main .entryBox span.comment {
+	font-size: 0.9em;
+	color: #928771;
+	display: block;
+	float:left;
+	/*margin: 5px 0px 5px 0px;*/
+}
+#main .entryBox span.comment a {
+	color: #928771;
+}
+#main .entryBox .entry {
+	width: 510px;
+	overflow: auto;
+	margin: 8px auto 0px;
+	padding: 0px 0px 10px;
+}
+#main .entryBox .entry p {
+	color: #4D5359;
+	font-size: 1.1em;
+	padding: 10px 0px 15px;
+}
+#main .entryBox .entry a:link,
+#main .entryBox .entry p a:link {
+	text-decoration: none;
+	color:#BD413D;
+}
+#main .entryBox .entry a:hover,
+#main .entryBox .entry p a:hover {
+	text-decoration: underline;
+	color: #C6514E;
+}
+#main .entryBox .entry a:visited,
+#main .entryBox .entry p a:visited {
+	text-decoration: none;
+	color: #CC6461;
+}
+#main .entryBox .entry img {
+	padding: 7px;
+}
+#main .entryBox .entry ol,
+#main .entryBox .entry ul,
+#main .entryBox .entry li  {
+	list-style-type: none;
+	padding: 2px;
+	margin: 0px 0px 0px 8px;
+	line-height: 20px;
+}
+#main .entryBox .entry ol li {
+	list-style: decimal outside;
+	margin: 0px 0px 0px 15px;
+	font-size: 1.1em;
+}
+#main .entryBox .entry ol li ul li {
+	list-style: disc outside;
+	margin: 2px 0px 0px 8px;
+	font-size: 1.0em;
+	font-weight: normal!important;
+}
+#main .entryBox .entry ul li {
+	list-style: disc outside;
+	margin: 0px 0px 0px 8px;
+	font-size: 1.1em;
+}
+#main .entryBox .entry ul li ul li {
+	list-style: circle outside;
+	margin: 2px 0px 0px 8px;
+	font-size: 1.0em;
+	font-weight: normal!important;
+}
+#main .entryBox .entry img.alignleft {
+	float: left;
+	display: block;
+	border: 2px solid #D9D6C6;
+	margin: 28px 5px 0px 0px;
+	background: #ECEAE2;
+}
+#main .entryBox .entry img.alignright {
+	float: right;
+	display: block;
+	border: 2px solid #D9D6C6;
+	margin: 28px 5px 0px 0px;
+	background: #ECEAE2;
+}
+#main .entryBox .entry img,
+#main .entryBox .entry img.alignnone {
+	border: 2px solid #D9D6C6;
+	margin: 0px 5px 0px 0px;
+	background: #ECEAE2;
+}
+#main .entryBox .entry img.aligncenter {
+	margin: 0px auto 5px;
+	display: block;
+	border: 2px solid #D9D6C6;
+	background: #ECEAE2;
+}
+#main .entryBox .entry .wp-caption p.wp-caption-text {
+	font-size: 0.8em!important;
+	padding: 5px 10px 5px 5px!important;
+	text-align: center;
+	background: #ECEAE2;
+	clear: both;
+	display: block;
+	width: 97%;
+	color: #333333;
+	line-height: 1.1em;
+}
+#main .entryBox .entry code {
+	display: block;
+	background-color: #DEDBD0;
+	padding: 3px;
+	margin: 10px 5px 10px 0px;
+	font: 1em/1.5em "Courier New", Courier, mono;
+}
+#main .entryBox .entry blockquote {
+	font-size: 0.9em;
+	line-height: 1.5em;
+	font-style: oblique;
+	padding: 5px 10px;
+	border-left: 3px solid #BFB8A3;
+}
+#main .entryBox .entry pre {
+	width: 500px;
+}
+#main .entryBox .entryBottom {
+	height:60px;
+	background: url(images/entry_bg_bottom.jpg) no-repeat -1px 21px;
+}
+#main .entryBox .tags {
+	clear:both;
+	margin: 2px 0px 5px;
+}
+#main .entryBox .entryBottom span,
+#main .entryBox .tags span {
+	font-size: 0.8em;
+	display:block;
+	padding: 0px 7px 0px 17px;
+}
+#main .entryBox .entryBottom a:link,
+#main .entryBox .entryBottom a:visited,
+#main .entryBox .tags a:link,
+#main .entryBox .tags a:visited {
+	text-decoration: none;
+	color: #77776B;
+	font-weight: bold;	
+}
+#main .entryBox .entryBottom a:hover,
+#main .entryBox .tags a:hover{
+	text-decoration: underline;
+	color: #928771;
+	font-weight: bold;	
+}
+
+/*		
+//////////////////////////////////////////////////////
+		SINGLE/COMMENT PAGE
+//////////////////////////////////////////////////////
+*/ 
+
+#main .entryBox .entryDescription,
+#main .entryBoxAlt .entryDescription {
+	width: 510px;
+	overflow: auto;
+	margin: 0px auto;
+}
+#main .entryBox .entryDesc {
+	width: 510px;
+	overflow: auto;
+	margin: 0px auto;
+	position:relative;
+	top:20px;
+}
+#main .entryBox .entryDescription p,
+#main .entryBoxAlt .entryDescription p,
+#main .entryBox .entryDesc p {
+	padding: 15px 8px 0px;
+	line-height: 1.5em;
+}
+#main .entryBox .entryDescription p a:link,
+#main .entryBoxAlt .entryDescription p a:link,
+#main .entryBox .entryDescription p a:visited,
+#main .entryBoxAlt .entryDescription p a:visited,
+#main .entryBox .entryDesc p a:link,
+#main .entryBox .entryDesc p a:visited {
+	text-decoration: none;
+	color:#BD413D;
+}
+#main .entryBox .entryDescription p a:hover,
+#main .entryBoxAlt .entryDescription p a:hover,
+#main .entryBox .entryDesc p a:hover {
+	text-decoration: underline;
+	color: #C6514E;
+}
+#main .entryBox p.who,
+#main .entryBoxAlt p.who {
+	padding: 5px 0px 5px 15px;	
+}
+#main .entryBox p.who img,
+#main .entryBoxAlt p.who img {
+	padding-top:5px;
+}
+#main .entryBox p.who a:link,
+#main .entryBox p.who a:visited,
+#main .entryBox .entryBottom p.commentmetadata a:link,
+#main .entryBox .entryBottom p.commentmetadata a:visited,
+#main .entryBoxAlt p.who a:link,
+#main .entryBoxAlt p.who a:visited,
+#main .entryBoxAlt .entryBottom p.commentmetadata a:link,
+#main .entryBoxAlt .entryBottom p.commentmetadata a:visited {
+	text-decoration: none;
+	color: #928771;
+}
+#main .entryBox .entryBottom p.commentmetadata a:hover,
+#main .entryBoxAlt .entryBottom p.commentmetadata a:hover,
+#main .entryBox p.who a:hover,
+#main .entryBoxAlt p.who a:hover {
+	text-decoration: underline;
+	color: #928771;
+}
+#main .entryBox .entryBottom p.commentmetadata,
+#main .entryBoxAlt .entryBottom p.commentmetadata {
+	font-size: 0.8em;
+	color: #928771;
+	padding: 15px 0px 5px 15px;
+}
+#main .entryBoxAlt {
+	width: 547px;
+	background: #D4CFC1 url(images/entry_bg_top_alt.jpg) no-repeat -1px 0px;
+	margin: 0px 0px 55px;
+}
+#main .entryBoxAlt .entryBottom {
+	height: 40px;
+	background: url(images/entry_bg_bottom_alt.jpg) no-repeat -1px 1px;
+}
+#main #commentForm {
+	width:550px;
+}
+#main #commentForm p.tags {
+	padding: 10px;
+	width: 530px;
+}
+#main #commentForm p {
+	padding:5px;
+}
+#main #commentForm p a:link,
+#main #commentForm p a:visited {
+	color:#BD413D;
+	text-decoration: none;
+}
+#main #commentForm p a:hover {
+	color:#BD413D;
+	text-decoration: underline;
+}
+#main #commentForm input#submit {
+	border:none;
+	font-size: 1em;
+	padding: 5px;
+	cursor:pointer;
+}
+#main #commentForm input#author,
+#main #commentForm input#email,
+#main #commentForm input#url,
+#main #commentForm textarea#comment {
+	padding: 8px 5px;
+	background-color: #fafafa;
+	border: 1px solid #E5E2D9;
+	font: normal 1em "Trebuchet MS", "Lucida Sans Std", "Lucida Sans Unicode", sans-serif;
+}
+#main #commentForm input#author:hover,
+#main #commentForm input#email:hover,
+#main #commentForm input#url:hover,
+#main #commentForm textarea#comment:hover {
+	background-color: #F7F7F3;
+	border: 1px solid #E5E2D9;
+}
+#main h3.respond,
+#main h3#respond,
+#main h3.response {
+	padding: 10px 5px 10px;
+}
+.aligncenter {
+	display: block;
+	margin: 0px auto;
+}
+.alignleft {
+   float: left;
+}
+.alignright {
+   float: right;
+}
+
+
+
+/*		
+//////////////////////////////////////////////////////
+		SIDEBAR
+//////////////////////////////////////////////////////
+*/ 
+
+#sidebar {
+	float: right;
+	width: 280px;
+	margin-top: 35px;
+}
+#sidebar h2,
+#sidebar h3 {
+	font-size: 1.5em;
+	color: #583408;
+	margin: 15px 0px;
+}
+#sidebar ul,
+#sidebar li {
+	list-style-type: none;
+}
+#sidebar ul li {
+	padding: 3px 3px 3px 8px;
+	list-style-type: none;
+	color: #6C5E5E;
+}
+#sidebar a:link,
+#sidebar ul li a:link,
+#sidebar a:visited,
+#sidebar ul li a:visited {
+	color: #6C5E5E;
+	text-decoration: none;
+}
+#sidebar a:hover,
+#sidebar ul li a:hover {
+	text-decoration: underline;
+	color:#583408;
+}
+#sidebar form input#s {
+	padding: 8px 5px;
+	margin:0px 0px 5px;
+	background-color: #fafafa;
+	border: 1px solid #E5E2D9;
+	font: normal 1.3em "Trebuchet MS", "Lucida Sans Std", "Lucida Sans Unicode", sans-serif;
+}
+
+#sidebar form input#s:hover {
+	background-color: #F7F7F3;
+	border: 1px solid #E5E2D9;
+}
+#sidebar form input {
+	border:none;
+	padding:5px;
+}
+#sidebar #wp-calendar {}
+#sidebar #wp-calendar caption {
+	font-size: 1.5em;
+	color: #583408;
+	margin: 15px 0px;
+	text-align: left;
+	font-weight: bold;
+}
+#sidebar #wp-calendar thead {}
+#sidebar #wp-calendar thead tr {}
+#sidebar #wp-calendar thead tr th {
+	text-align: left;
+	padding: 5px;
+}
+#sidebar #wp-calendar tbody {}
+#sidebar #wp-calendar tbody tr {}
+#sidebar #wp-calendar tbody tr td {
+	padding: 5px;
+}
+#sidebar #wp-calendar tbody tr td a {
+	color: #C6514E;
+}
+#sidebar #wp-calendar tbody tr td a:hover {
+	text-decoration: underline;
+}
+#sidebar .textwidget {
+	font-size: 1.1em;
+}
+/*		
+//////////////////////////////////////////////////////
+		FOOTER
+//////////////////////////////////////////////////////
+*/ 
+
+#footer {
+	clear: both;
+	height: 35px;
+	margin: 25px 0px 0px;
+}
+#footer p {
+	padding: 5px 0px 0px 15px;
+}
+#footer p a:link,
+#footer p a:visited {
+	color: #583408;
+	text-decoration: none;
+}
+#footer p a:hover {
+	color: #AAA185;
+	text-decoration: underline;
+}
+

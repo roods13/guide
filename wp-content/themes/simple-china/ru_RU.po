@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: china-theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-05 10:09+0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Alexander <tumanob@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: D:\\!talex\\!JOB\\kitaitorg\\доки\\шаблон\\chinablog1\\\n"
+"X-Poedit-SearchPath-0: tema-chinablog\n"
+"X-Poedit-SearchPath-1: chinablog\n"
+
+#: chinablog/comments.php:6
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Данный пост защищен паролем. Введите пароль, чтобы просмотреть комментарии. "
+
+#: chinablog/comments.php:15
+msgid "Comments:"
+msgstr "Комментарий:"
+
+#: chinablog/comments.php:22
+msgid "Says:"
+msgstr "пишет:"
+
+#: chinablog/comments.php:24
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации. "
+
+#: chinablog/comments.php:26
+msgid "at"
+msgstr "в"
+
+#: chinablog/comments.php:26
+msgid "edit"
+msgstr "править"
+
+#: chinablog/comments.php:52
+msgid "Comments are closed."
+msgstr "Комментарии закрыты. "
+
+#: chinablog/comments.php:62
+msgid "Add comments:"
+msgstr "Добавить комментарий:"
+
+#: chinablog/comments.php:69
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Вы должны <a href=\"%s\">авторизоваться</a>, чтобы оставить комментарий."
+
+#: chinablog/comments.php:76
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "Вы вошли как <a href=\"%1$s\">%2$s</a>."
+
+#: chinablog/comments.php:76
+msgid "Log out of this account"
+msgstr "Выйти"
+
+#: chinablog/comments.php:76
+msgid "Log out &raquo;"
+msgstr "Выйти"
+
+#: chinablog/comments.php:81
+msgid "Name"
+msgstr "Имя"
+
+#: chinablog/comments.php:81
+#: chinablog/comments.php:84
+msgid "(required)"
+msgstr "(поле, обязательное для заполнения)"
+
+#: chinablog/comments.php:84
+msgid "Mail (will not be published)"
+msgstr "Почта (не будет опубликована на сайте)"
+
+#: chinablog/comments.php:87
+msgid "Website"
+msgstr "Вэб-сайт"
+
+#: chinablog/comments.php:91
+#, php-format
+msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+msgstr "<strong>XHTML:</strong> Вы можете использовать следующие тэги: <code>%s</code>"
+
+#: chinablog/comments.php:95
+msgid "Submit Comment"
+msgstr "Добавить комментарии"
+
+#: chinablog/footer.php:2
+msgid "Designed by <a href=\"http://www.alexander-tumanov.name/\">TumanoB</a>. Powered by <a href=\"#\">WordPress</a>"
+msgstr "Дизайн <a href=\"http://www.alexander-tumanov.name/\">TumanoB</a>. Работает на  <a href=\"http://wordpress.org/\">WordPress</a>"
+
+#: chinablog/header.php:39
+#, php-format
+msgid "%s RSS Feed"
+msgstr "%s RSS лента"
+
+#: chinablog/index.php:21
+#: chinablog/single.php:21
+#, fuzzy
+msgid "Tags:"
+msgstr "пишет:"
+
+#: chinablog/index.php:22
+msgid "Author:"
+msgstr "Автор:"
+
+#: chinablog/index.php:23
+msgid "Category:"
+msgstr "Категории:"
+
+#: chinablog/index.php:34
+#: chinablog/single.php:31
+msgid "&laquo; Older Entries"
+msgstr "&laquo; старые записи"
+
+#: chinablog/index.php:35
+#: chinablog/single.php:32
+msgid "Newer Entries &raquo;"
+msgstr "Новые записи  &raquo;"
+
+#: chinablog/sidebar.php:5
+msgid "Pages"
+msgstr "Страницы"
+
+#: chinablog/sidebar.php:12
+msgid "Categories"
+msgstr "Категории"
+
+#: chinablog/sidebar.php:19
+msgid "Links"
+msgstr "Ссылки"
+
+#~ msgid ""
+#~ "China blog is proudly using the <a href=\"#\">KitaiTorg theme</a> "
+#~ "originally designed by <a href=\"#\">KitaiTorg.ru</a>. Powered by <a href="
+#~ "\"#\">WordPress</a>"
+#~ msgstr ""
+#~ "Дизайн <a href=\"http://www.kitaitorg.ru/ru/\">KitaiTorg.ru</a>. Работает "
+#~ "на <a href=\"http://wordpress.org\">WordPress</a>"
+#~ msgid "ChinaBlog - Blogs about China"
+#~ msgstr "ЧайнаБлог - Блог о Китае"
+#~ msgid "Home"
+#~ msgstr "Домой"
+#~ msgid "About"
+#~ msgstr "О блоге"
+#~ msgid "Elements"
+#~ msgstr "Элементы"
+#~ msgid "Products"
+#~ msgstr "Продукты"
+#~ msgid "Contact"
+#~ msgstr "Контакт"
+#~ msgid "One Response"
+#~ msgstr "Один комментарий"
+#~ msgid "to"
+#~ msgstr "на"
+
